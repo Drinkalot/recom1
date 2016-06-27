@@ -1,0 +1,94 @@
+html { overflow-x:hidden; }
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(184,194,197);
+    font-family: font1;
+}
+
+#d1
+{
+    height: 100px;
+    background-color: white;
+}
+.d1{
+    background-color: white;
+    height: 100px;
+}
+
+a
+{
+    position:relative;
+    color:#336666;
+    text-decoration:none;
+}
+a:hover
+{
+    opacity:0.4;
+}
+#po1
+{
+    top:-49px;
+    font-size:50pt;
+    left:150px;
+}
+#po2
+{
+    font-size:30pt;
+    top:-52px;
+    left:300px;
+}
+#po3
+{
+    font-size:30pt;
+    top:-52px;
+    left:400px;
+}
+#po4
+{
+    font-size:30pt;
+    top:-52px;
+    left:500px;
+}
+#po5
+{
+    top:-13px;
+    left:800px;
+}
+p
+{
+    position:relative;
+    color:black;
+    font-size:30pt;
+}
+#p1
+{
+    font-size:40pt;
+    color:#336666;
+}
+#p2
+{
+    color:#336666;
+    left:200px;
+    width:730px;
+    height:650px;
+    background-color:white;
+}
+#p3
+{
+    background-color:white;
+    left:220px;
+    top:-550px;
+    width:690px;
+    height:454px;
+}
+
+@font-face {
+    font-family: 'font1';
+    src:url(../font/msyi.ttf);
+}
+
+.add1{
+    margin-top: 30px;
+    font-size: 29px;
+}

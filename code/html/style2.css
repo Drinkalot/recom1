@@ -1,0 +1,82 @@
+html { overflow-x:hidden; }
+body{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(184,194,197);
+}
+
+#header1{
+    height: 100px;
+    background-color: white;
+    margin-top: -21px;
+    padding: 0;
+}
+
+h1{
+    margin-top: 30px;
+    margin-left: 60px;
+    float: left;
+    font-family: font1;
+    font-size: 50px;
+    color: rgba(54,129,151,0.7);
+}
+h1 a{
+    font-family: font1;
+    font-size: 50px;
+    color: rgba(54,129,151,0.7);
+}
+
+@font-face {
+    font-family: 'font1';
+    src:url(../font/msyi.ttf);
+}
+
+#lr{
+    width: 500px;
+    height: 150px;
+}
+#lr a:hover {
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+#a1{
+    float: left;
+    margin-top: 40px;
+    margin-left: -80px;
+}
+a {
+    text-align: center;
+    font-size: 46px;
+    text-decoration: none;
+    color: white;
+    font-family: font1;
+}
+
+#main{
+    height: 290px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    font-family: font1;
+    font-size: 34px;
+    padding-top: 50px;
+}
+#p1{
+    margin-top: 20px;
+}
+#s1{
+    margin-left: -20px;
+}
+#s2{
+    margin-left: -73px;
+}
+.s1{
+    margin-top: 15px;
+    width: 400px;
+}
+#sub{
+    font-size: 25px;
+    margin-top: 25px;
+    font-family: font1;
+}
